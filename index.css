@@ -15,9 +15,9 @@ body {
     background-attachment: fixed;
 }
 
-img {
-    width: 90%;
-    height: 90%;
+.puppy-img {
+    width: 70%;
+    height: 70%;
 }
 
 #all-players-container {

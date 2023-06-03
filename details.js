@@ -16,6 +16,7 @@ window.onload = () => {
     let puppyStatusDetail = document.createElement("p")
     puppyStatusDetail.innerText = `Status: ${puppyStatus}`
     let puppyPicDetail = document.createElement("img")
+    puppyPicDetail.classList.add("puppy-img")
     puppyPicDetail.src = puppyPic
     let closeButton = document.createElement("button")
     closeButton.id = "close-button"
