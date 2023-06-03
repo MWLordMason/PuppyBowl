@@ -12,8 +12,10 @@ window.onload = () => {
     puppyNameDetail.innerText = puppyName;
   
     let puppyBreedDetail = document.createElement("p")
+    puppyBreedDetail.classList.add("detail-text")
     puppyBreedDetail.innerText = `Breed: ${puppyBreed}`
     let puppyStatusDetail = document.createElement("p")
+    puppyStatusDetail.classList.add("detail-text")
     puppyStatusDetail.innerText = `Status: ${puppyStatus}`
     let puppyPicDetail = document.createElement("img")
     puppyPicDetail.classList.add("puppy-img")
