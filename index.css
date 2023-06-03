@@ -1,0 +1,67 @@
+
+#background-image {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-image: url(./images/puppy_field.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    width: 90%;
+    height: 90%;
+}
+
+#all-players-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.puppy-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 35%;
+    height: 20rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-position: center;
+    font-size: large;
+}
+
+#puppy-details-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 40%;
+    height: 60%;
+    padding: 2%;
+    background-color: rgba(255, 255, 255,0.5);
+}
+
+.player-text {
+    background-color: rgba(255, 255, 255,0.5);
+}
+
+.player-details {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: end;
+    
+}
